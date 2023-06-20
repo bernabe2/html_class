@@ -1,0 +1,38 @@
+.container {
+    padding: 50px; 
+    margin: 50px;
+    width: 300px; 
+    border: 1px black solid;
+    background-color: rgb(137, 226, 226);
+}
+
+input {
+    background-color: transparent;
+    border-width: 0px 0px 1px 0px;
+    padding: 5px;
+}
+
+#password {
+    font-weight: 400;
+}
+
+.columns {
+    display: flex; 
+    flex-direction: column;
+}
+
+.flexbox {
+    display: flex;
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    flex-direction: row;
+    justify-content: flex-start;
+display: contents;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
